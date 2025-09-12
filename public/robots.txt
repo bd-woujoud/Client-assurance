@@ -1,0 +1,23 @@
+
+
+User-agent: *
+Allow: /
+
+# Interdire l'indexation des résultats personnalisés
+Disallow: /resultats
+Disallow: /quiz/step-*
+Disallow: /api/
+Disallow: /admin/
+
+# Fichiers importants
+Sitemap: https://assurancemax.ch/sitemap.xml
+
+# Bots spécifiques
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl-delay pour éviter la surcharge
+Crawl-delay: 1
