@@ -61,7 +61,7 @@ const App = () => {
 
 
 
- 
+
   const generateResults = () => {
     const offers = [
       {
@@ -262,7 +262,7 @@ const App = () => {
                 </div>
               </div>
               <div className="text-center">
-                <div className="text-sm text-gray-500 mb-1">🇨🇭 Certifié FINMA</div>
+
                 <div className="text-sm font-medium">4.9/5 ⭐ 2,847 avis</div>
               </div>
             </div>
@@ -272,10 +272,10 @@ const App = () => {
         {/* Hero Section */}
 
 
-       
+
         {currentSection === 'hero' && (
-         
-     
+
+
           <section className="relative bg-gradient-to-r from-indigo-600 via-purple-600  text-white py-20">
             {/* <div className="absolute top-40 left-10 text-3xl emoji-float" style={{ animationDelay: '0s' }}>💊</div>
             <div className="absolute top-32 right-20 text-4xl emoji-float" style={{ animationDelay: '1s' }}>🩺</div>
@@ -317,7 +317,7 @@ const App = () => {
                   <button onClick={handleStart} className="bg-white text-indigo-600 font-semibold px-6 py-3 rounded-full shadow hover:bg-gray-100 transition">
                     Commencer ma comparaison →
                   </button>
-                
+
                 </div>
 
                 {/* Logos assurances */}
@@ -402,7 +402,8 @@ const App = () => {
           </div>
         )}
 
-        </div>
-        </div>
-  )}
-        export default App;
+      </div>
+    </div>
+  )
+}
+export default App;
